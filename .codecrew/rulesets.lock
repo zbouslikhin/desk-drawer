@@ -1,0 +1,47 @@
+# Written by codecrew: what is installed, with a hash per file. Don't edit by hand.
+lock_version: 1
+rulesets:
+- source: https://github.com/zbouslikhin/codecrew-rulesets.git
+  name: freecad-part
+  version: v2.13.0
+  commit: bb670328cd83178f75a4d20752f1cdc4e663b365
+  path: .
+  files:
+    .codecrew/rulesets/freecad-part/ruleset.yaml: 338beb67ef3dfb618b3224cbaa81474074c1783a9dc5ab5e2adc58159acfb632
+    .codecrew/.gitattributes: aebe07539e010565865dc6ec696b876b1a32bd026909366f7dd89e5f11c5a9a1
+    .codecrew/rulesets/freecad-part/appearance.py: f2c55a488b3edb8af72d97363e8ff43f12028b0fcc27044c33b20112fc3ce508
+    .codecrew/rulesets/freecad-part/check_spec.py: 6b41dd90271530f4f18e51e1f9ae0e42a195fe067df9d9da771f248e635c7a3a
+    .codecrew/rulesets/freecad-part/deliverables.py: 89ad1980555b0367b5454bf56eb10e42364dbef5059c65d7046888b3d11633ef
+    .codecrew/rulesets/freecad-part/dfm.py: 55db00ebd12eedb314c08066e58a7e01c7eb43bf91401202146dc654778af143
+    .codecrew/rulesets/freecad-part/ergonomics.toml: e7e7787d270d8e6f569487092041a96b68004f350af464294b6b66ae49f1fd23
+    .codecrew/rulesets/freecad-part/handover.py: cf2ca8014f593d97b57d2e0df1d04a96d3749c431efe6d3095d7bbd7cd2b17f9
+    .codecrew/rulesets/freecad-part/loads.py: 5042e172319afcc03e81d95edc255525a18e5674ba8874244521fcf54b63dd19
+    .codecrew/rulesets/freecad-part/processes.toml: 810ace0b855b7c3a4cb0e4612cfacfbe64b8cd88f7544eae94a7b7829ce16443
+    .codecrew/rulesets/freecad-part/properties.py: 3f905b076c25261c0da784976486b106b90ed85a7f632468f5aaf5a6b8a45e77
+    .codecrew/rulesets/freecad-part/validate.py: 8e39ad7eef7f08928e09c887f6ab0816c3549cc5a450a95ec837ff9937395e73
+    ruff.toml: 97bb921f26cecb3f7cbc9467a57222cfa2956ad4747194afd6d6d51d81ca0d24
+    standards/__init__.py: 8c05e1d27e91accdca5fc9c991b3331c22ad55d32ad3c87bb292a5c56f81b0d6
+    standards/fasteners.py: 8ed5bf3f59943937ae3e0c6b38be74aff9bae95928203155d89a66aad3e3facc
+    standards/finishes.py: d328bd53bec0a09bf992641549a1237502328ba6669e72dc2c985a7b94fe0249
+    standards/materials.py: f64ccd3bd32039ab2391b008613ad45ab611e5d564f5a340cd4b2522d428605d
+    standards/shapes.py: a19afd89f2487a8dd71cf49a5e0be86ee5f4c9fd5e542ab6090a93d9bc116439
+    standards/sizes.py: 54152b1a75544f3d3c342c4a5502b50095ffaea93f70b8fb6c863d10e67433f3
+    standards/strength.py: 4f2103d06794187a1e88f8e7d012e071f7d93c8d2426c339ec463a893b3b66c8
+    standards/tolerances.py: eb403219a616299d333951c08ce69daea91c2056e33bcaa3a72164ccd63836a0
+    .codecrew/rulesets/freecad-part/generators/part/design/{{name}}.spec.toml: 7c1fbf720b36c81d6e35c78ab1c7ee13cd5d82c3da8a39d0d481637534ef9570
+    .codecrew/rulesets/freecad-part/generators/part/parts/{{name}}.py: b6ca546480aa0223df364e5ff13f42b3dc2cf5a63b3ed4b191bf7e40f3e71ea1
+    .codecrew/rulesets/freecad-part/generators/part/tests/test_{{name}}.py: 8839800ae686e3967fd97ebfee8da38f2ecb905dd20c3ba1eb9b0a7be9a41699
+    .codecrew/rulesets/freecad-part/skills/checking-strength/SKILL.md: eb9fdfe1c4fa86eac8913148a9059fff6ca3ae4e008f4f5c13b527ce9042fea4
+    .codecrew/rulesets/freecad-part/skills/choosing-a-fastener/SKILL.md: 63d8836e94a76c5ca879313cbf750906fca6ffc804aeb4f8e823d1ae9b111346
+    .codecrew/rulesets/freecad-part/skills/choosing-a-fit/SKILL.md: 1ebb4662aa2e1b8569de41b35fe8d569b83de4c3cbaadbc8ae3c42263cbdd51c
+    .codecrew/rulesets/freecad-part/skills/deliverables/SKILL.md: 956e11bd0f33e8cb2f22ed0df351fc738947e7e2768841a1c79a1fa4459462f7
+    .codecrew/rulesets/freecad-part/skills/design-review/SKILL.md: 8df8eb9a758dc1bbe8298b1964ce87b5122a30a77b850555eb3330ab0280c3b8
+    .codecrew/rulesets/freecad-part/skills/designing-for-a-process/SKILL.md: a63eddfca7d56719a8aae068b0ba623241883072c82a56e5ab8e64b5f7cb7b94
+    .codecrew/rulesets/freecad-part/skills/designing-for-people/SKILL.md: 65a7d71ca2064245acc964b3e3912aeca26a4741e7ec5f115d3d6d7d8ab71337
+    .codecrew/rulesets/freecad-part/skills/edges-by-geometry/SKILL.md: 59ca18725df1ce525d183bf8612d5b843274617a3fc9ba81f6838d61d594564e
+    .codecrew/rulesets/freecad-part/skills/engineering-workflow/SKILL.md: afc0c9076fc50bc3f82549573ee6ffa71126dcdec6cdb8d96a42259972a83bff
+    .codecrew/rulesets/freecad-part/skills/handing-over-to-onshape/SKILL.md: 0588bdcecd906916ffb3ed8b1e6c5b4f5c4ef760c0e67436007825b51f22c0ea
+    .codecrew/rulesets/freecad-part/skills/import-order/SKILL.md: 5423e69019c3c2d5f538c3e333809d8d72eca7720c1924b10aa8efd6933b8645
+    .codecrew/rulesets/freecad-part/skills/placing-an-assembly/SKILL.md: 43df80f57829cafd448f9295bbfc6de8c282919f66050a16123750e37bf6bd38
+    .codecrew/rulesets/freecad-part/skills/standard-sizes/SKILL.md: 4b757aa000456a20b8a1c18946c899025bd8185c4a067028dc6c828d8a7b2954
+    .codecrew/rulesets/freecad-part/skills/writing-a-spec/SKILL.md: de7151d07a920ed4f6e1e7517fd849c7795be4ea8ba588cf7871fca0f3ce5b17
